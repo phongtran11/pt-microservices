@@ -2,7 +2,9 @@
   "name": "microservice",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "https-service": "nx serve https-service "
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^9.0.0",
@@ -14,6 +16,7 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+    "@nestjs/config": "^2.3.1",
     "@nestjs/schematics": "^9.0.0",
     "@nestjs/testing": "^9.0.0",
     "@nrwl/eslint-plugin-nx": "15.8.5",
